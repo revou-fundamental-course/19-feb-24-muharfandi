@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Coding Project</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="assets/revo.webp" alt="logo">
+            <ul class="navigation">
+                <li><button type="button" onclick="coba_function()">home</button></li>
+                <li><button type="button" onclick="coba()">our profil</button></li>
+                <li><button type="button" onclick="messageus()">message us</button></li>
+            </ul>
+    </header>
+    <P id="demo"></P>
+<script src="js/script.js">
+</script>
+    <div class="our-office">
+        <div>
+            <div class="circle-img" style="background-image: url(assets/licensed-image.jpeg);">
+            </div>
+             <h5>Makassar</h5>
+        </div>
+        <div>
+            <div class="circle-img" style="background-image: url(assets/images.jpeg);">
+            </div>
+             <h5>Enrekang</h5>
+        </div>
+    </div>
+
+    <div class="inquiry-box">
+        <from class="inquiry-from">
+            <label>nama</label>
+            <input type="text" id="nama">
+
+            <label>tanggal lahir</label>
+            <input type="date" id="tanggal lahir">
+
+            <label for="gender" >jenis kelamin</label>
+            <select id="gender">
+                <option >laki laki</option>
+                <option >perempuan</option>
+            </select>
+            <label>pesan</label>
+            <textarea name="biografi" id="pesan"></textarea>
+
+            <p>
+                <input type="submit" value="Daftar" onclick="kirim()" >
+            </p>
+        </from>
+        <div id="keluaran">
+       
+        </div>
+    </div>
+</body>
+</html>
